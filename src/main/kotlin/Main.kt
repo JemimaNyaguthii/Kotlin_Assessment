@@ -25,15 +25,14 @@ fun random(name:String):String{
 //4. Must contain a digit
 //Your function should determine whether the password provided is valid or not.
 //The function returns true/false
-fun password(password:String):Boolean{
-    if (password== String()){
+fun password(password:String):Boolean {
+    if (password == String()) {
 
         return true
+    } else if (password != String()) {
+        return false
     }
-        else if (password!=String()){
-            return false
-    }
-    }
+}
 
 
 
